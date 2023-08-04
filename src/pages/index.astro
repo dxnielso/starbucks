@@ -1,0 +1,26 @@
+---
+// Components
+import MainLayout from "../layouts/MainLayout.astro";
+import Card from "../components/Card.astro";
+
+// Data
+import data from '../data/indexData';
+---
+<MainLayout pageTitle="Homepage">
+  <main class="flex flex-col gap space-y-5 mb-5">
+    {
+      data.map((a) => (
+        <Card
+          image={a.image}
+          title={a.title}
+          description={a.description}
+          footer={a.footer}
+          button={a.button}
+          bgColor={a.bgColor}
+          color={a.color}
+          border={a.border}
+        />
+      ))
+    }
+  </main>
+</MainLayout>
