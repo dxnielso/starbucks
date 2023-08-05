@@ -7,6 +7,7 @@ export interface IndexData {
   bgColor: string;
   color: string;
   border?: string;
+  invertir: boolean;
 }
 export interface Image {
   source: string;

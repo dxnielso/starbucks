@@ -36,18 +36,49 @@ const links = [
 ]
 ---
 
-<footer class="w-full px-6">
+<footer class="w-full px-10 xl:px-[200px] 2xl:px-[350px] shadow-2xl">
   <!-- Accordion -->
-  <ul class="w-full bg-white flex flex-col space-y-4 pt-8 pb-20">
+  <ul class="w-full bg-white flex flex-col lg:flex-row lg:justify-start lg:gap-x-16 space-y-4 pt-8 pb-8">
     {
       links.map((link, e) => (
         <Accordion client:visible title={link.title} links={link.links} />
       ))
     }
   </ul>
-  <span class="block w-full h-[1px] bg-gray-300"></span>
+  <span class="block w-full h-[1px] bg-gray-300 my-5"></span>
   <!-- Iconos -->
-  <div class="w-full py-10 flex justify-center items-center">
+  <div class="w-full py-5 flex justify-start sm:justify-center items-center">
     <SocialMediaRow client:visible />
+  </div>
+  <!--  -->
+  <div class="flex flex-col sm:flex-row items-start justify-center [&>div]:flex gap-x-4 gap-y-4 sm:gap-y-2 [&>div]:space-x-4 flex-wrap py-5 text-gray-400 text-sm font-thin [&>div>span]:hidden [&>div>span]:sm:inline-block tracking-wide [&>div>a]:duration-200">
+    <div>
+      <a href="/" class="hover:text-gray-600">Accesibilidad</a>
+      <span>|</span>
+    </div>
+    <div>
+      <a href="/" class="hover:text-gray-600">Aviso de privacidad</a>
+      <span>|</span>
+    </div>
+    <div>
+      <a href="/" class="hover:text-gray-600">Boletines</a>
+      <span>|</span>
+    </div>
+    <div>
+      <a href="/" class="hover:text-gray-600">Condiciones de uso</a>
+      <span>|</span>
+    </div>
+    <div>
+      <a href="/" class="hover:text-gray-600">Mapa del sitio</a>
+      <span>|</span>
+    </div>
+    <div>
+      <a href="/" class="hover:text-gray-600">Preferencias sobre cookies</a>
+    </div>
+  </div>
+  
+  <!--  -->
+  <div class="mt-5 pb-10">
+    <p class="text-xs font-thin text-gray-400 text-center">Ⓒ 2023. Starbucks Cofee Company. Reservados todos los derechos</p>
   </div>
 </footer>

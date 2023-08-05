@@ -20,6 +20,7 @@ const data: IndexData[] = [
     footer: "¡Pídelo Latte, Helado o Frappuccino!",
     bgColor: "bg-[#CC3568]",
     color: "text-[#FFFFFF]",
+    invertir: false,
   },
   {
     image: { source: bebida_02, alt: "¡Verano de sí a todo!" },
@@ -29,6 +30,7 @@ const data: IndexData[] = [
     footer: "#TodasLasFormasDeDisfrutarTuVerano",
     bgColor: "bg-[#CBE678]",
     color: "text-[#CC3568]",
+    invertir: true,
   },
   {
     image: { source: bebida_03, alt: "Haz tus días refrescantes" },
@@ -38,6 +40,7 @@ const data: IndexData[] = [
 
     bgColor: "bg-[#8985EF]",
     color: "text-[#FFFFFF]",
+    invertir: false,
   },
   {
     image: { source: paquete_cafe, alt: "Starbucks perú mujeres de junín" },
@@ -52,6 +55,7 @@ const data: IndexData[] = [
     bgColor: "bg-[#92CBFF]",
     color: "text-[#1E3932]",
     border: "border-[#1E3932]",
+    invertir: true,
   },
   {
     image: { source: clientes, alt: "Recompensas en tu bebida favorita" },
@@ -66,6 +70,7 @@ const data: IndexData[] = [
     bgColor: "bg-[#1E3932]",
     color: "text-[#FFFFFF]",
     border: "border-[#FFFFFF]",
+    invertir: true,
   },
   {
     image: { source: rewards, alt: "Paga como quieras y obten estrellas" },
@@ -80,6 +85,7 @@ const data: IndexData[] = [
     bgColor: "bg-[#D4E9E2]",
     color: "text-[#1E3932]",
     border: "border-[#1E3932]",
+    invertir: false,
   },
   {
     image: { source: manos, alt: "Todo y todos por el planeta" },
@@ -89,6 +95,7 @@ const data: IndexData[] = [
     footer: "#StarbucksHagamosElCambio",
     bgColor: "bg-[#93C47D]",
     color: "text-[#1E3932]",
+    invertir: false,
   },
   {
     image: { source: noticias, alt: "Noticias Starbucks" },
@@ -100,6 +107,7 @@ const data: IndexData[] = [
     bgColor: "bg-[#F1FF67]",
     color: "text-[#1E3932]",
     border: "border-[#1E3932]",
+    invertir: true,
   },
   {
     image: { source: promociones, alt: "Conoce nuestras promociones" },
@@ -111,6 +119,7 @@ const data: IndexData[] = [
     bgColor: "bg-[#F9423A]",
     color: "text-[#FFFFFF]",
     border: "border-[#FFFFFF]",
+    invertir: true,
   },
 ];
 
