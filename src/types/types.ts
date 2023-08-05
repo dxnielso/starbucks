@@ -17,3 +17,7 @@ export interface Button {
   text: string;
   url: string;
 }
+export interface Category {
+  text: string;
+  image: Image;
+}

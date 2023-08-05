@@ -1,0 +1,21 @@
+---
+// Components
+import MainLayout from "../layouts/MainLayout.astro";
+import MenuFoodSection from "../components/MenuFoodSection.astro";
+// Data
+import menu from "../data/menuData";
+---
+
+<MainLayout pageTitle="Menú">
+  <main class="p-5 md:p-10 xl:py-14 xl:px-[200px] 2xl:px-[350px]">
+    <h1 class="text-lg sm:text-xl lg:text-2xl 2xl:text-3xl font-extrabold text-[#2b2b2b] mb-7 xl:w-1/2">
+      <span class="text-sm sm:text-base lg:text-lg xl:text-xl font-semibold">¡Disfrútalos!</span><br />Conoce
+      nuestras bebidas y alimentos de temporada
+    </h1>
+    <div class="flex flex-col gap-y-12">
+      <MenuFoodSection category={menu.bebidas} name="Bebidas" />
+      <MenuFoodSection category={menu.alimentos} name="Alimentos" />
+      <MenuFoodSection category={menu.cafeEnGrano} name="Café en grano" />
+    </div>
+  </main>
+</MainLayout>

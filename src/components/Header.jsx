@@ -19,10 +19,10 @@ const Header = () => {
         </a>
 
         {/* Menu Laptop */}
-        <nav class="hidden md:flex md:flex-1 md:justify-between items-center">
+        <nav className="hidden md:flex md:flex-1 md:justify-between items-center">
           <ul className="flex justify-center items-center gap-x-7 pl-8 text-[#2b2b2b] text-sm font-bold uppercase tracking-wider duration-100">
-            <li className="relative"><a href="/menu" className="before:absolute before:w-full before:h-[5px] before:bg-green-800 before:-bottom-8 before:hidden hover:before:inline-block hover:text-green-800">Menú</a></li>
-            <li className="relative"><a href="/rewards" className="before:absolute before:w-full before:h-[5px] before:bg-green-800 before:-bottom-8 before:hidden hover:before:inline-block hover:text-green-800">Rewards</a></li>
+            <li className="relative"><a href="/menu" className="before:absolute before:w-full before:h-[5px] before:bg-[#1E3932] before:-bottom-8 before:hidden hover:before:inline-block hover:text-[#1E3932]">Menú</a></li>
+            <li className="relative"><a href="/rewards" className="before:absolute before:w-full before:h-[5px] before:bg-[#1E3932] before:-bottom-8 before:hidden hover:before:inline-block hover:text-[#1E3932]">Rewards</a></li>
           </ul>
           <ul className="flex justify-center items-center gap-x-6">
             <li>
@@ -74,7 +74,7 @@ const Header = () => {
               <a href="/menu">Menú</a>
               <a href="/rewards">Rewards</a>
             </nav>
-            <span class="block w-full h-[1px] bg-gray-300 my-5"></span>
+            <span className="block w-full h-[1px] bg-gray-300 my-5"></span>
             <div className="flex flex-col space-y-4">
               <a href="/localizar-tienda" className="text-base font-semibold text-[#2b2b2b] flex space-x-3 items-center justify-start capitalize">
                 <FaMapMarkerAlt />
