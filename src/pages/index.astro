@@ -5,13 +5,16 @@ import Card from "../components/Card.astro";
 import Button from "../components/Button.astro";
 
 // Data
-import data from "../data/indexData";
+import data from "../data/indexData.json";
+
+// Types
+import {IndexData} from '../types/types';
 ---
 
 <MainLayout pageTitle="Homepage">
   <main class="flex flex-col gap space-y-5 mb-5 xl:px-[100px] 2xl:px-[250px]">
   {
-      data.map((a, index) => {
+      data.map((a: IndexData, index) => {
         if (index < data.length - 2) {
           return (
             <Card

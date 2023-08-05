@@ -1,9 +1,9 @@
 ---
-import SocialMediaRow from './SocialMediaRow';
+import SocialMediaRow from './SocialMediaRow.astro';
 import Accordion from "./Accordion";
 import Line from './Line.astro';
 // Data
-import links from '../data/footerLinksData';
+import links from '../data/footerLinksData.json';
 ---
 
 <footer class="w-full px-10 xl:px-[200px] 2xl:px-[350px] shadow-2xl">
@@ -18,7 +18,7 @@ import links from '../data/footerLinksData';
   <Line />
   <!-- Iconos -->
   <div class="w-full py-5 flex justify-start sm:justify-center items-center">
-    <SocialMediaRow client:visible />
+    <SocialMediaRow />
   </div>
   <!--  -->
   <div class="flex flex-col sm:flex-row items-start justify-center [&>div]:flex gap-x-4 gap-y-4 sm:gap-y-2 [&>div]:space-x-4 flex-wrap py-5 text-gray-600 md:text-gray-400 text-sm font-light [&>div>span]:hidden [&>div>span]:sm:inline-block tracking-wide [&>div>a]:duration-200">

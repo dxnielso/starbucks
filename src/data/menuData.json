@@ -1,0 +1,57 @@
+{
+  "bebidas": [
+    {
+      "text": "Bebidas Calientes",
+      "image": {
+        "source": "./src/images/bebidas-calientes.png",
+        "alt": "Bebidas calientes"
+      }
+    },
+    {
+      "text": "Frappuccino",
+      "image": {
+        "source": "./src/images/frappuccino.png",
+        "alt": "Frappuccino"
+      }
+    },
+    {
+      "text": "Bebidas frías",
+      "image": {
+        "source": "./src/images/bebidas-frias.png",
+        "alt": "Bebidas Frías"
+      }
+    },
+    {
+      "text": "Bebidas Base Té",
+      "image": {
+        "source": "./src/images/bebida-base-te.png",
+        "alt": "Bebidas base té"
+      }
+    },
+    {
+      "text": "Cold Brew",
+      "image": {
+        "source": "./src/images/cold-brew.png",
+        "alt": "Cold brew"
+      }
+    }
+  ],
+  "alimentos": [
+    {
+      "text": "Elige tu complemento favorito",
+      "image": {
+        "source": "./src/images/sandwich.png",
+        "alt": "Sandwich"
+      }
+    }
+  ],
+  "cafeEnGrano": [
+    {
+      "text": "Elige tu café favorito",
+      "image": {
+        "source": "./src/images/chiapas.png",
+        "alt": "Café Chiapas"
+      }
+    }
+  ]
+}
