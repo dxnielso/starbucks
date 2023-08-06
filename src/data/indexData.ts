@@ -121,6 +121,18 @@ const data: IndexData[] = [
     border: "border-[#FFFFFF]",
     invertir: true,
   },
+  {
+    image: { source: promociones, alt: "Conoce nuestras promociones" },
+    description: "Términos y condiciones",
+    button: {
+      text: "Aquí",
+      url: "/terminos-y-condiciones",
+    },
+    bgColor: "bg-[#F9423A]",
+    color: "text-[#FFFFFF]",
+    border: "border-[#FFFFFF]",
+    invertir: true,
+  },
 ];
 
 export default data;
