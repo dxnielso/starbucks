@@ -27,10 +27,6 @@ const links = [
         text: "Formas de comprar",
         link: "/"
       },
-      {
-        text: "Formas de comprar",
-        link: "/"
-      },
     ]
   },
 ]

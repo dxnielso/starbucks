@@ -25,7 +25,7 @@ const Accordion = ({ title, links }) => {
       >
         {
           links.map((link, e) => (
-            <a href={link.link} key={e} className="w-fit text-base text-gray-500">{link.text}</a>
+            <a href={link.link} key={e} className="w-fit text-base text-gray-500 hover:text-gray-700">{link.text}</a>
           ))
         }
       </div>

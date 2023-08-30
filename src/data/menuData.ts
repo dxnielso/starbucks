@@ -63,14 +63,5 @@ const menu = {
       },
     },
   ],
-  cafeEnGranoo: [
-    {
-      text: "Elige tu café favorito",
-      image: {
-        source: chiapas,
-        alt: "Café Chiapas",
-      },
-    },
-  ],
 };
 export default menu;
