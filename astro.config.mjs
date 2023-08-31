@@ -13,4 +13,6 @@ export default defineConfig({
   server: {
     host: true
   },
+  site: 'https://dxnielso.github.io',
+  base: '/starbucks',
 });

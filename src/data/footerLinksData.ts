@@ -4,11 +4,11 @@ const links = [
     links: [
       {
         text: "Trabaja con nosotros",
-        link: "/"
+        link: "/starbucks/"
       },
       {
         text: "Historias Starbucks",
-        link: "/"
+        link: "/starbucks/"
       },
     ]
   },
@@ -17,15 +17,15 @@ const links = [
     links: [
       {
         text: "Contáctanos",
-        link: "/"
+        link: "/starbucks/"
       },
       {
         text: "Facturas Electrónicas",
-        link: "/"
+        link: "/starbucks/"
       },
       {
         text: "Formas de comprar",
-        link: "/"
+        link: "/starbucks/"
       },
     ]
   },

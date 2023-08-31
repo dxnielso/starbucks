@@ -14,7 +14,7 @@ const Header = () => {
         className={`${toggled ? "fixed": "relative"} md:relative right-0 left-0 top-0 h-[70px] md:h-[90px] bg-white px-8 flex items-center justify-between z-50 shadow-lg xl:px-[200px] 2xl:px-[350px]`}
       >
         {/* Logo */}
-        <a href="/" className="h-11 w-11 md:w-14 md:h-14 md:mr-5">
+        <a href="/starbucks/" className="h-11 w-11 md:w-14 md:h-14 md:mr-5">
           <img src="/logo.svg" alt="Logo de Starbucks" />
         </a>
 
@@ -26,14 +26,14 @@ const Header = () => {
           </ul>
           <ul className="flex justify-center items-center gap-x-6">
             <li>
-              <a href="/localizar-tienda" className="flex justify-center items-center gap-x-1 text-sm font-semibold text-[#2b2b2b] duration-200 hover:opacity-80">
+              <a href="/starbucks/localizar-tienda" className="flex justify-center items-center gap-x-1 text-sm font-semibold text-[#2b2b2b] duration-200 hover:opacity-80">
                 <FaMapMarkerAlt />
                 <span>Localizar Tienda</span>
               </a>
             </li>
             <div className="flex justify-center items-center gap-x-3">
-              <li><Button border="border-[#2b2b2b]" button={{text: "Ingresar", url: "/login"}} color="text-[#2b2b2b]" /></li>
-              <li><Button border="border-[#2b2b2b]" button={{text: "Únete", url: "/register"}} fill={true} bgColor="bg-[#2b2b2b]" color="text-[#FFFFFF]" /></li>
+              <li><Button border="border-[#2b2b2b]" button={{text: "Ingresar", url: "/starbucks/login"}} color="text-[#2b2b2b]" /></li>
+              <li><Button border="border-[#2b2b2b]" button={{text: "Únete", url: "/starbucks/register"}} fill={true} bgColor="bg-[#2b2b2b]" color="text-[#FFFFFF]" /></li>
             </div>
           </ul>
         </nav>
@@ -71,18 +71,18 @@ const Header = () => {
             transition={{ ease: "easeInOut" }}
           >
             <nav className="w-full my-6 uppercase text-base font-semibold text-[#2b2b2b] flex flex-col space-y-6">
-              <a href="/menu">Menú</a>
-              <a href="/rewards">Rewards</a>
+              <a href="/starbucks/menu">Menú</a>
+              <a href="/starbucks/rewards">Rewards</a>
             </nav>
             <span className="block w-full h-[1px] bg-gray-300 my-5"></span>
             <div className="flex flex-col space-y-4">
-              <a href="/localizar-tienda" className="text-base font-semibold text-[#2b2b2b] flex space-x-3 items-center justify-start capitalize">
+              <a href="/starbucks/localizar-tienda" className="text-base font-semibold text-[#2b2b2b] flex space-x-3 items-center justify-start capitalize">
                 <FaMapMarkerAlt />
                 <span>Localizar tienda</span>
               </a>
               <div className="flex space-x-4 justify-start items-center">
-                <Button border="border-[#2b2b2b]" button={{text: "Ingresar", url: "/login"}} color="text-[#2b2b2b]" />
-                <Button border="border-[#2b2b2b]" button={{text: "Únete", url: "/register"}} fill={true} bgColor="bg-[#2b2b2b]" color="text-[#FFFFFF]" />
+                <Button border="border-[#2b2b2b]" button={{text: "Ingresar", url: "/starbucks/login"}} color="text-[#2b2b2b]" />
+                <Button border="border-[#2b2b2b]" button={{text: "Únete", url: "/starbucks/register"}} fill={true} bgColor="bg-[#2b2b2b]" color="text-[#FFFFFF]" />
               </div>
             </div>
           </motion.div>

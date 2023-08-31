@@ -50,7 +50,7 @@ const data: IndexData[] = [
     footer: "¡Pruébalo en tu café favorito!",
     button: {
       text: "Más información",
-      url: "/rewards",
+      url: "/starbucks/rewards",
     },
     bgColor: "bg-[#92CBFF]",
     color: "text-[#1E3932]",
@@ -65,7 +65,7 @@ const data: IndexData[] = [
     footer: "Descarga la app y regístrate",
     button: {
       text: "Conoce más",
-      url: "/loyalty",
+      url: "/starbucks/loyalty",
     },
     bgColor: "bg-[#1E3932]",
     color: "text-[#FFFFFF]",
@@ -80,7 +80,7 @@ const data: IndexData[] = [
     footer: "Descarga la app y regístrate",
     button: {
       text: "Más información",
-      url: "/loyalty",
+      url: "/starbucks/loyalty",
     },
     bgColor: "bg-[#D4E9E2]",
     color: "text-[#1E3932]",
@@ -102,7 +102,7 @@ const data: IndexData[] = [
     description: "Consulta los eventos más recientes.",
     button: {
       text: "Ver más",
-      url: "/boletines",
+      url: "/starbucks/boletines",
     },
     bgColor: "bg-[#F1FF67]",
     color: "text-[#1E3932]",
@@ -114,7 +114,7 @@ const data: IndexData[] = [
     description: "Términos y condiciones",
     button: {
       text: "Aquí",
-      url: "/terminos-y-condiciones",
+      url: "/starbucks/terminos-y-condiciones",
     },
     bgColor: "bg-[#F9423A]",
     color: "text-[#FFFFFF]",
