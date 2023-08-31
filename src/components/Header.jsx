@@ -15,14 +15,14 @@ const Header = () => {
       >
         {/* Logo */}
         <a href="/starbucks/" className="h-11 w-11 md:w-14 md:h-14 md:mr-5">
-          <img src="/logo.svg" alt="Logo de Starbucks" />
+          <img src="/starbucks/logo.svg" alt="Logo de Starbucks" />
         </a>
 
         {/* Menu Laptop */}
         <nav className="hidden md:flex md:flex-1 md:justify-between items-center">
           <ul className="flex justify-center items-center gap-x-7 pl-8 text-[#2b2b2b] text-sm font-bold uppercase tracking-wider duration-100">
-            <li className="relative"><a href="/menu" className="before:absolute before:w-full before:h-[5px] before:bg-[#1E3932] before:-bottom-8 before:hidden hover:before:inline-block hover:text-[#1E3932]">Menú</a></li>
-            <li className="relative"><a href="/rewards" className="before:absolute before:w-full before:h-[5px] before:bg-[#1E3932] before:-bottom-8 before:hidden hover:before:inline-block hover:text-[#1E3932]">Rewards</a></li>
+            <li className="relative"><a href="/starbucks/menu" className="before:absolute before:w-full before:h-[5px] before:bg-[#1E3932] before:-bottom-8 before:hidden hover:before:inline-block hover:text-[#1E3932]">Menú</a></li>
+            <li className="relative"><a href="/starbucks/rewards" className="before:absolute before:w-full before:h-[5px] before:bg-[#1E3932] before:-bottom-8 before:hidden hover:before:inline-block hover:text-[#1E3932]">Rewards</a></li>
           </ul>
           <ul className="flex justify-center items-center gap-x-6">
             <li>
