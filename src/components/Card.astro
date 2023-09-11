@@ -1,11 +1,11 @@
 ---
-import Button from "./Button.astro";
-import { IndexData } from "../types/types";
+  import Button from "./Button.astro";
+  import { IndexData } from "../types/types";
 
-interface Props extends IndexData {}
+  interface Props extends IndexData {}
 
-const { image, title, description, footer, button, bgColor, color, border, invertir } =
-  Astro.props;
+  const { image, title, description, footer, button, bgColor, color, border, invertir } =
+    Astro.props;
 ---
 
 <div class={`w-full h-fit flex flex-col md:items-center ${bgColor} ${color} ${invertir ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
